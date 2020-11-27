@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+
+<context-param>
+	<param-name>configuration</param-name>
+	<param-value>2</param-value>
+</context-param>
+
+<context-param>
+	<param-name>WebInfUnderJsp</param-name>
+	<param-value>1</param-value>
+</context-param>
+
+<context-param>
+	<param-name>isStandalone</param-name>
+	<param-value>0</param-value>
+</context-param>
+
+<error-page>
+  <error-code>404</error-code>
+  <location>/error404.jsp</location>
+</error-page>
+<!--
+********************************** CONFIGURATION 0 (MAISON, BaseLixian)***************************************
+-->
+
+<context-param>
+	<param-name>client0</param-name>
+	<param-value>Backup</param-value>
+</context-param>
+
+
+<context-param>
+	<param-name>mail0</param-name>
+	<param-value>bouyguestelecom.fr</param-value>
+</context-param>
+
+<context-param>
+	<param-name>URL0</param-name>
+	<param-value>jdbc:sqlserver://PC-JOEL\SOARCH:1433;databaseName=</param-value>
+</context-param>
+
+<context-param>
+	<param-name>driver0</param-name>
+	<param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+</context-param>
+
+<context-param>
+	<param-name>login0</param-name>
+	<param-value>sa</param-value>
+</context-param>
+
+<context-param>
+	<param-name>psw0</param-name>
+	<param-value>sa_ioa</param-value>
+</context-param>
+
+<context-param>
+	<param-name>nomBase0</param-name>
+	<param-value>BaseBackup</param-value>
+</context-param>
+
+<!--
+*******************************************************************************************************
+-->
+<!--
+********************************** CONFIGURATION 1 (MAISON, BaseBytel)***************************************
+-->
+
+<context-param>
+	<param-name>client1</param-name>
+	<param-value>Bytel</param-value>
+</context-param>
+
+
+<context-param>
+	<param-name>mail1</param-name>
+	<param-value>bouyguestelecom.fr</param-value>
+</context-param>
+
+<context-param>
+	<param-name>URL1</param-name>
+	<param-value>jdbc:sqlserver://PC-JOEL\SOARCH:1433;databaseName=</param-value>
+</context-param>
+
+<context-param>
+	<param-name>driver1</param-name>
+	<param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+</context-param>
+
+<context-param>
+	<param-name>login1</param-name>
+	<param-value>sa</param-value>
+</context-param>
+
+<context-param>
+	<param-name>psw1</param-name>
+	<param-value>sa_ioa</param-value>
+</context-param>
+
+<context-param>
+	<param-name>nomBase1</param-name>
+	<param-value>BaseBytel</param-value>
+</context-param>
+
+<!--
+********************************** CONFIGURATION 2 (MAISON, BaseDev)***************************************
+-->
+
+<context-param>
+	<param-name>client2</param-name>
+	<param-value>Dev</param-value>
+</context-param>
+
+
+<context-param>
+	<param-name>mail2</param-name>
+	<param-value>bouyguestelecom.fr</param-value>
+</context-param>
+
+<context-param>
+	<param-name>URL2</param-name>
+	<param-value>jdbc:sqlserver://LAPTOP-VLKP93A8\LIXIAN:49670;databaseName=</param-value>
+</context-param>
+
+<context-param>
+	<param-name>driver2</param-name>
+	<param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+</context-param>
+
+<context-param>
+	<param-name>login2</param-name>
+	<param-value>sa</param-value>
+</context-param>
+
+<context-param>
+	<param-name>psw2</param-name>
+	<param-value>sa_ioa</param-value>
+</context-param>
+
+<context-param>
+	<param-name>nomBase2</param-name>
+	<param-value>BaseDev</param-value>
+</context-param>
+
+<!--
+********************************** CONFIGURATION 3(MAISON, BaseProd)***************************************
+-->
+
+<context-param>
+	<param-name>client3</param-name>
+	<param-value>Prod</param-value>
+</context-param>
+
+
+<context-param>
+	<param-name>mail3</param-name>
+	<param-value>bouyguestelecom.fr</param-value>
+</context-param>
+
+<context-param>
+	<param-name>URL3</param-name>
+	<param-value>jdbc:sqlserver://PC-JOEL\SOARCH:1433;databaseName=</param-value>
+</context-param>
+
+<context-param>
+	<param-name>driver3</param-name>
+	<param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+</context-param>
+
+<context-param>
+	<param-name>login3</param-name>
+	<param-value>sa</param-value>
+</context-param>
+
+<context-param>
+	<param-name>psw3</param-name>
+	<param-value>sa_ioa</param-value>
+</context-param>
+
+<context-param>
+	<param-name>nomBase3</param-name>
+	<param-value>BaseProd</param-value>
+</context-param>
+
+<!--
+********************************** CONFIGURATION 4 (MAISON, BaseDev)***************************************
+-->
+
+<context-param>
+	<param-name>client4</param-name>
+	<param-value>Dev</param-value>
+</context-param>
+
+
+<context-param>
+	<param-name>mail4</param-name>
+	<param-value>bouyguestelecom.fr</param-value>
+</context-param>
+
+<context-param>
+	<param-name>URL4</param-name>
+	<param-value>jdbc:odbc:BaseProd</param-value>
+</context-param>
+
+<context-param>
+	<param-name>driver4</param-name>
+	<param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
+</context-param>
+
+<context-param>
+	<param-name>login4</param-name>
+	<param-value>sa</param-value>
+</context-param>
+
+<context-param>
+	<param-name>psw4</param-name>
+	<param-value>sa_ioa</param-value>
+</context-param>
+
+<context-param>
+	<param-name>nomBase4</param-name>
+	<param-value>BaseDev</param-value>
+</context-param>
+<!--
+********************************** CONFIGURATION 22 (AWS HEBERGEMENT, BaseCarto)***************************************
+-->
+
+<context-param>
+	<param-name>client22</param-name>
+	<param-value>esg</param-value>
+</context-param>
+
+<context-param>
+	<param-name>mail22</param-name>
+	<param-value>mba-esg.fr</param-value>
+</context-param>
+
+<context-param>
+	<param-name>URL22</param-name>
+	<param-value>jdbc:sqlserver://lixian-db.c55pjaes5tr5.eu-west-1.rds.amazonaws.com\lixian-db:1433;databaseName=</param-value>
+</context-param>
+
+<context-param>
+	<param-name>driver22</param-name>
+	<param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>
+</context-param>
+
+<context-param>
+	<param-name>login22</param-name>
+	<param-value>LIXIAN_USER</param-value>
+</context-param>
+
+<context-param>
+	<param-name>psw22</param-name>
+	<param-value>LIXIAN2015</param-value>
+</context-param>
+
+<context-param>
+	<param-name>nomBase22</param-name>
+	<param-value>BaseCarto</param-value>
+</context-param>
+<!--
+*******************************************************************************************************
+-->
+
+<context-param>
+	<param-name>nomProduit</param-name>
+	<param-value>liXian</param-value>
+</context-param>
+
+<context-param>
+	<param-name>authentification</param-name>
+	<param-value>yes</param-value>
+</context-param>
+
+<context-param>
+	<param-name>debug</param-name>
+	<param-value>no</param-value>
+</context-param>
+
+<context-param>
+	<param-name>trace</param-name>
+	<param-value>yes</param-value>
+</context-param>
+
+<context-param>
+	<param-name>traceBd</param-name>
+	<param-value>no</param-value>
+</context-param>
+
+<context-param>
+	<param-name>sendMail</param-name>
+	<param-value>0</param-value>
+</context-param>
+
+<context-param>
+	<param-name>serverSMTP2</param-name>
+	<param-value>email-smtp.eu-west-1.amazonaws.com</param-value>
+</context-param>
+
+<context-param>
+        <param-name>loginSMTP2</param-name>
+        <param-value>AKIAIEW42SWV7C7VUSEQ</param-value>
+</context-param>
+
+<context-param>
+        <param-name>passwordSMTP2</param-name>
+        <param-value>Ai0J8WGC1ZDxi21cp7q2K3dF8NNxc1BVkTweu4HQQC0F</param-value>
+</context-param>
+
+<context-param>
+	<param-name>serverSMTP</param-name>
+	<param-value>email-smtp.eu-west-1.amazonaws.com</param-value>
+</context-param>
+
+<context-param>
+        <param-name>loginSMTP</param-name>
+        <param-value>AKIAIEW42SWV7C7VUSEQ</param-value>
+</context-param>
+
+<context-param>
+        <param-name>passwordSMTP</param-name>
+        <param-value>Ai0J8WGC1ZDxi21cp7q2K3dF8NNxc1BVkTweu4HQQC0F</param-value>
+</context-param>
+
+<context-param>
+        <param-name>portSMTP</param-name>
+        <param-value>587</param-value>
+</context-param>
+
+<context-param>
+	<param-name>mailAdministrateur</param-name>
+	<param-value>lixian.technology@gmail.com</param-value>
+</context-param>
+
+<context-param>
+	<param-name>nomAdministrateur</param-name>
+	<param-value>Jakubowicz</param-value>
+</context-param>
+
+<context-param>
+	<param-name>prenomAdministrateur</param-name>
+	<param-value>Joel</param-value>
+</context-param>
+
+
+<mime-mapping>
+<extension>docx</extension>
+<mime-type>application/vnd.openxmlformats-officedocument.wordprocessingml.document</mime-type>
+</mime-mapping>
+
+<mime-mapping>
+        <extension>xls</extension>
+        <mime-type>application/vnd.ms-excel</mime-type>
+</mime-mapping>
+
+<mime-mapping>
+        <extension>xlsm</extension>
+        <mime-type>application/vnd.ms-excel</mime-type>
+</mime-mapping>
+
+<mime-mapping>
+        <extension>xlsx</extension>
+        <mime-type>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime-type>
+</mime-mapping>
+
+<mime-mapping>
+    <extension>ppt</extension>
+    <mime-type>application/vnd.ms-powerpoint</mime-type>
+	</mime-mapping>
+
+<mime-mapping>
+    <extension>pptx</extension>
+    <mime-type>application/vnd.ms-powerpoint</mime-type>
+	</mime-mapping>
+
+<mime-mapping>
+     <extension>msg</extension>
+     <mime-type>application/vnd.msoutlook</mime-type>
+        </mime-mapping>
+
+
+</web-app>

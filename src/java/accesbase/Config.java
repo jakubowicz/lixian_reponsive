@@ -1,6 +1,5 @@
 package accesbase; 
 
-import ST.ST;
 import java.sql.Statement;
 import java.sql.ResultSet;
 import java.sql.SQLException;

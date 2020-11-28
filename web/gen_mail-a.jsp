@@ -1,17 +1,9 @@
 <%@ page import="accesbase.Connexion"%>
 <%@ page import="java.sql.*,java.util.*" %>
-<%@ page import="Composant.choiceList"%>
-<%@ page import="ST.ST"%>
-<%@ page import="Composant.Onglet"%>
 <%@ page import="General.Utils"%>
-<%@ page import="Composant.BoiteOnglet"%>
-<%@ page import="Projet.Brief"%>
-<%@ page import="Organisation.Collaborateur"%>
-<%@ page import="accesbase.transaction"%>
 <%@ page import="mail.Jmail"%>
 <%@ page import="mail.AmazonSESSample"%>
-<%@ page import="Documentation.doc"%>
-<%@ page import="accesbase.ErrorSpecific"%>
+
 <jsp:useBean id="mySessionBean" scope="session" class="General.sessionBean"/>
 <%@ page contentType="text/html; charset=UTF-8" language="java" import="java.sql.*" errorPage="gen_error.jsp" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">

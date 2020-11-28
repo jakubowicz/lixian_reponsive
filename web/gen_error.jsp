@@ -1,23 +1,6 @@
-<%@ page import="Composant.Onglet"%>
-<%@ page import="Composant.BoiteOnglet"%>
-
 <%@ page import="accesbase.Connexion"%>
-<%@ page import="General.Utils"%>
-<%@ page import="ST.SI"%>
-<%@ page import="ST.ST"%>
-<%@ page import="ST.Interface"%>
 <%@ page import="Organisation.Collaborateur"%>
-<%@ page import="Organisation.Service"%>
-<%@ page import="Processus.Processus"%>
-<%@ page import="Composant.treeView"%>
-<%@ page import="Composant.item"%>
-<%@ page import="Composant.Requete"%>
-<%@ page import="Projet.Roadmap"%>
-<%@ page import="accesbase.transaction"%>
-<%@ page import="Composant.choiceList"%>
-<%@ page import="accesbase.Config"%>
-<%@ page import="java.util.Date"%>
-<%@ page import="java.util.*"%>
+
 <%@ page language="java" import="java.sql.*" errorPage="gen_error.jsp" %>
 <jsp:useBean id="mySessionBean" scope="session" class="General.sessionBean"/>
 <html>

@@ -1,12 +1,10 @@
 <%@ page import="accesbase.Connexion"%>
-<%@ page import="Composant.Onglet"%>
 <%@ page import="Composant.Licence"%>
 <%@ page import="Composant.BoiteOnglet"%>
 <%@ page import="Organisation.Collaborateur"%>
 <%@ page import="accesbase.ErrorSpecific"%>
 <%@ page import="accesbase.transaction"%>
 <%@ page import="accesbase.Config"%>
-<%@ page import="Projet.Roadmap"%>
 <%@ page import="General.Utils"%>
 <%@ page contentType="text/html; charset=iso-8859-1" language="java" import="java.sql.*,java.util.*" errorPage="gen_error.jsp" %>
 <jsp:useBean id="mySessionBean" scope="session" class="General.sessionBean"/>
@@ -110,25 +108,11 @@ if (!myAnnees.equals(lastMaj)) // voir si on a pas deja enregistre les jours fer
 // 1- Obtention de collaborateur Fictif Jour Ferie
 int idCollaborateurFictif = Collaborateur.get_S_IdGenerique(c1.nomBase,c1,  st );
 
-// 2- Obtention de Projet Fictif Jour Ferie
-Roadmap theProjetFictif = new Roadmap();
-int idProjetFictif=theProjetFictif.getIdProjetJourFerie(c1.nomBase,c1,  st, idCollaborateurFictif );
-theProjetFictif.id=idProjetFictif;
-
-
 // 4- Enregisrement des Jalons
   transaction theTransaction = new transaction (this.getClass().getName());
   theTransaction.begin(c1.nomBase,c1,st);
   
   ErrorSpecific myError=new ErrorSpecific();
-  
- for (int annee = anneeRef - 2; annee < (anneeRef + 2); annee++)
- {
-    // 3- Creation des Jalons sur 3 annees glissantes 
-    theProjetFictif.setJoursFeries(annee);
-
-    myError= theProjetFictif.bd_InsertJoursFeries(c1.nomBase,c1, st, theTransaction.nom, annee, idCollaborateurFictif);
- }  
  
     myError =Config.bd_UpdateValueFromNom(c1.nomBase,c1, st, theTransaction.nom, "MAJ_JOURS-FERIES",myAnnees);
  

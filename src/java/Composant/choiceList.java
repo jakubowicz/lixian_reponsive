@@ -6,7 +6,6 @@ import java.sql.SQLException;
 import accesbase.Connexion;
 import java.util.Vector;
 import Organisation.Collaborateur;
-import ST.SI;
 
 /**
  * <p>Titre : Choice list</p>

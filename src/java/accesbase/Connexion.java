@@ -312,24 +312,8 @@ public static void readConfigWeb(javax.servlet.ServletContext myContext, String 
   
   WebInfUnderJsp = Integer.parseInt( myContext.getInitParameter("WebInfUnderJsp"));
   //isStandalone = Integer.parseInt( myContext.getInitParameter("isStandalone"));
-    ConfigExcel theConfig = new ConfigExcel();
+
  
-    theConfig.directory = "WEB-INF/";  
-    theConfig.setBaseDirectory(); 
-    //theConfig.filename = theConfig.Basedirectory +"/"+"config.xls";  
-    //theConfig.xl_read();
-    
-    theConfig.filename = theConfig.Basedirectory +"/"+"config.xlsx";  
-    theConfig.xl_readXLSX();
-    
-    if (theConfig.ListeItems.size() > 0)
-    {
-        item theItem = (item)theConfig.ListeItems.elementAt(0);
-        float f_isStandalone = Float.parseFloat(theItem.valeur);
-       
-       isStandalone = (int) f_isStandalone;
-    }
-  
   //System.out.println("**********************************max_lien="+max_lien);
   //System.out.println("**********************************nomBase="+nomBase+"/"+login+"/"+psw+"/"+driver+"/"+URL+"/"+Fonctionnement);
   

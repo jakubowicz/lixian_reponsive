@@ -1,9 +1,7 @@
 package Composant;
 
 import accesbase.Connexion;
-import ST.*;
 import General.Utils;
-import PO.*;
 
 /**
  * <p>Titre : </p>

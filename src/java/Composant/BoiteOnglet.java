@@ -185,41 +185,18 @@ public void setVitrine(String nomBase,Connexion myCnx, Statement st, Collaborate
 
 public void setSuperAdmin(String nomBase,Connexion myCnx, Statement st, Collaborateur theCollaborateur ){
     
-    if (!theCollaborateur.isSuperAdmin()) return;
-        addOngletForBaseVide(900, "Super Admin", "javascript:AfficherPageBas('Administration',6,'Validation','Admin','Mes Contacts','Menu3')", -1, -1);
-        
-             
-        addOngletForBaseVide(901, "Mes Contacts", "javascript:AfficherPageBas('Administration',6,'Validation','Admin','Mes Contacts','Menu3')", -1, 900);
-        addOngletForBaseVide(902, "Mes Clients", "javascript:AfficherPageBas('Administration',6,'Validation','Admin','Mes Clients','Menu3')", -1, 900);
-        addOngletForBaseVide(903,"Backup", "javascript: AfficherPage('Administration', 'gen_backup.jsp?idRoadmap=0','Création')", -1, 900);
-        addOngletForBaseVide(904,"Génération Clefs", "javascript: AfficherPage('Administration', 'gen_key.jsp','Création')", -1, 900);
                                                                        
     
 }
 
 public void setSuperAdminPere(String nomBase,Connexion myCnx, Statement st, Collaborateur theCollaborateur ){
     
-    if (!theCollaborateur.isSuperAdmin()) return;
-        addOngletForBaseVide(900, "Super Admin", "javascript:AfficherPageBas('Administration',6,'Validation','Admin','Mes Contacts','Menu3')", -1, -1);
-                                                                               
+                                                                            
     
 }
 
 public void setSuperAdminFils(String nomBase,Connexion myCnx, Statement st, Collaborateur theCollaborateur ){
-    
-    if (!theCollaborateur.isSuperAdmin()) return;        
-             
-        addOngletForBaseVide(901, "Mes Contacts", "javascript:AfficherPageBas('Administration',6,'Validation','Admin','Mes Contacts','Menu3')", -1, 900);
-        addOngletForBaseVide(902, "Mes Clients", "javascript:AfficherPageBas('Administration',6,'Validation','Admin','Mes Clients','Menu3')", -1, 900);
-        //addOngletForBaseVide(903,"Backup", "javascript: AfficherPage('Administration', 'gen_backup.jsp?idRoadmap=0','Création')", -1, 900);
-        addOngletForBaseVide(903,"Dump", "javascript: AfficherPage('Administration', 'gen_dump.jsp?idRoadmap=0','Création')", -1, 900);
-        addOngletForBaseVide(904,"Génération Clefs", "javascript: AfficherPage('Administration', 'gen_key.jsp','Création')", -1, 900);
-        addOngletForBaseVide(904,"Test de Connexion", "javascript: AfficherPage('Administration', 'gen_testConnexion.jsp','Création')", -1, 900);
-        addOngletForBaseVide(904,"Gestion RDS et Standalone", "javascript: AfficherPage('Administration', 'gen_restoreBases.jsp','Création')", -1, 900);
-        addOngletForBaseVide(905,"Gestion Onglets Internes", "javascript:AfficherPageBas('Administration',103,'Validations','Admin','Gestion Onglets Internes','Menu3')", -1, 900);
-        addOngletForBaseVide(904,"Programmes de Migration", "javascript: AfficherPage('Administration', 'gen_migration.jsp','Création')", -1, 900);
-        
-                                                                       
+                                                              
     
 }
 

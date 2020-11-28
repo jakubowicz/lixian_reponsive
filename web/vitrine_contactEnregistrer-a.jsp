@@ -14,16 +14,6 @@
 Connexion c1 = null ;
 Statement st = c1.Connect(this.getServletContext(), mySessionBean.getClient());
 String base=this.getClass().getName();
-/*
-if (st == null)
-{
-        Contact theContact = new Contact(Integer.parseInt(request.getParameter("idContact")));
-	theContact.nom = request.getParameter("nom");
-        theContact.prenom = request.getParameter("prenom");    
-    out.print("@1@"+ theContact.id + "#" + theContact.nomEtat + "@2@");
-    return;
-}
-*/
 
 //-------------------------------------------------------------------------------------------------------
 

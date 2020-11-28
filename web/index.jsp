@@ -29,8 +29,7 @@ Lixian Technology&copy; &eacute;dite le logiciel de  gestion de portefeuille pro
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    
+    <link rel="stylesheet" href="assets/css/responsive.css">  
     <link rel="stylesheet" href="assets/css/login.css">
 
     <style>
@@ -54,7 +53,6 @@ Lixian Technology&copy; &eacute;dite le logiciel de  gestion de portefeuille pro
 
 }
     
-
 .contact {
     color: #ffffff;
 } 
@@ -109,8 +107,7 @@ catch (Exception e)
             <div class="cube2"></div>
         </div>
     </div>
-    <!-- // Preloader -->
-    
+    <!-- // Preloader -->  
 
     <!-- ====== Header ====== -->
     <header id="header" class="header header_style_01">
@@ -148,11 +145,6 @@ catch (Exception e)
     <!-- ====== Hero Area ====== -->
     <!-- ====== //Hero Area ====== -->
 
-
-
-
-
-
     <!-- ====== Service Section ====== -->
     <section id="home" class="section-padding bg-light">
         <div class="container">
@@ -162,7 +154,7 @@ catch (Exception e)
                 <div class="col-lg-6 ">
                     <div class="section-title text-center" id="title_accueil">
                         <h2>Lixian Technology&copy</h2>
-                        <p>Conseil en Syst&egrave;mes d'Information, &Eacute;dition logicielle & Intégration</p>
+                        <p>Conseil en Syst&egrave;mes d'Information, &Eacute;dition logicielle & Int&eacute;gration</p>
                     </div>
                 </div>
             </div>
@@ -182,7 +174,7 @@ catch (Exception e)
                 <div class="col-lg-4 col-md-6">
                     <div class="single-blog">
                         <div class="blog-thumb" style="background-image: url(assets/images/hero-area/img-2.jpg)"></div>
-                        <h4 class="blog-title"><a href="Gouvernance.html">édition logicielle</a></h4>
+                        <h4 class="blog-title"><a href="Gouvernance.html">&eacute;dition logicielle</a></h4>
                         <p class="blog-meta">Gestion de portefeuille Projets, Architecture SI, ...</p>
                         <p>liXian  Technology commercialise le produit de Gestion de portefeuille projets liXian&copy;, bas&eacute; sur un socle de cartographie applicative et un dictionnaire de donn&eacute;es m&eacute;tiers.</p></p>
                     </div>
@@ -192,7 +184,7 @@ catch (Exception e)
                 <div class="col-lg-4 col-md-6">
                     <div class="single-blog">
                         <div class="blog-thumb" style="background-image: url(assets/images/hero-area/img-3.jpg)"></div>
-                        <h4 class="blog-title"><a href="Projets.html">Intégration</a></h4>
+                        <h4 class="blog-title"><a href="Projets.html">Int&eacute;gration</a></h4>
                         <p class="blog-meta">liXian&copy; deploy&eacute; en Version Saas ou On Premise, ...</p>
                         <p>Le produit liXian&copy; est int&eacute;gr&eacute; par nos soins ou via un partenaire pour &nbsp;s'interfacer avec votre Syst&egrave;me d'information.  Une &eacute;tude pr&eacute;alable avec votre DSI est indispensable.</p> 
                     </div>
@@ -204,7 +196,6 @@ catch (Exception e)
         </div>
     </section>
     <!-- ====== //Service Section ====== -->
-
 
     <!-- ====== Fact Counter Section ====== -->
     <!-- ====================================================================
@@ -249,10 +240,6 @@ catch (Exception e)
         </div>
     </section>
     <!-- ====== //Fact Counter Section ====== -->
-
-    
-
-
 
     <!-- ====== produit Section ====== -->
     <section id="produit" class="section-padding pb-70 blog-section bg-light">
@@ -306,7 +293,6 @@ catch (Exception e)
     </section>
     <!-- ====== // produit Section ====== -->
 
-    
     <!-- ====== Portfolio Section ====== -->
     <section id="demo" class="section-padding bg-secondary pb-85 portfolio-area bg-light">
         <div class="container">
@@ -469,8 +455,7 @@ catch (Exception e)
                     </div>
                 </div>               
                 <!-- Single Portfolio  ** FIN TESTS ** -->             
-
-            
+  
                 <!-- // Single Portfolio  ** DEBUT PROJETS ** -->
                 <div class="col-lg-4 col-md-6 mix Projets">
                     <div class="single-portfolio" style="background-image: url(assets/images/portfolio/Suivi.JPG)">
@@ -619,7 +604,7 @@ catch (Exception e)
                 <div class="col-lg-6 ">
                     <div class="section-title text-center">
                         <h2>Pourquoi choisir liXian</h2>
-                        <p>La gestion de projet simple, basée sur l'expérience.</p>
+                        <p>La gestion de projet simple, bas&eacute;e sur l'exp&eacute;rience.</p>
                     </div>
                 </div>
             </div>
@@ -635,8 +620,8 @@ catch (Exception e)
                                 </div>
                             </div>
                         </div>
-                        <h4>30 ans d'expérience</h4>
-                        <p>A travers le produit liXian, vous pourrez juger de la capacité de liXian technology à vous accompagner pour vos projets.</p>
+                        <h4>30 ans d'exp&eacute;rience</h4>
+                        <p>A travers le produit liXian, vous pourrez juger de la capacit&eacute; de liXian technology &agrave; vous accompagner pour vos projets.</p>
                     </div>
                 </div>
                 <!-- // Single Why choose me -->
@@ -652,7 +637,7 @@ catch (Exception e)
                             </div>
                         </div>
                         <h4>Approche patrimoniale</h4>
-                        <p>La gestion de projet se base sur la connaissance des produits embarquée dans la partie cartographie de liXian.</p>
+                        <p>La gestion de projet se base sur la connaissance des produits embarqu&eacute;e dans la partie cartographie de liXian.</p>
                     </div>
                 </div>
                 <!-- // Single Why choose me -->
@@ -667,7 +652,7 @@ catch (Exception e)
                                 </div>
                             </div>
                         </div>
-                        <h4>Fédérer différents métiers</h4>
+                        <h4>F&eacute;d&eacute;rer diff&eacute;rents m&eacute;tiers</h4>
                         <p>Que l'on soit Manager, Chef de projet MOA ou MOE, architecte fonctionnel, on doit pouvoir partager un langage commun.</p>
                     </div>
                 </div>
@@ -684,7 +669,7 @@ catch (Exception e)
                             </div>
                         </div>
                         <h4>Eviter les doubles saisie</h4>
-                        <p>Cartographier les produits, gérer les projets ou faire des tests pourquoi ressaisir les mêmes données ?</p>
+                        <p>Cartographier les produits, g&eacute;rer les projets ou faire des tests pourquoi ressaisir les m&ecirc;mes donn&eacute;es ?</p>
                     </div>
                 </div>
                 <!-- // Single Why choose me -->
@@ -700,7 +685,7 @@ catch (Exception e)
             <div class="row justify-content-center">
                 <div class="col-lg-6 ">
                     <div class="section-title text-center faq-title">
-                        <h2>Questions Fréquemment posées</h2>
+                        <h2>Questions Fr&eacute;quemment pos&eacute;es</h2>
                         <p>Nos Clients nous ont remont&eacute; ..............</p>
                     </div>
                 </div>
@@ -1020,7 +1005,7 @@ catch (Exception e)
                 <div class="col-lg-6 ">
                     <div class="section-title text-center">
                         <h2>Un petit mot du Fondateur</h2>
-                        <p>J'aurais pu écrire un livre sur mes 30 ans d'expérience dans les systèmes d'information ...... j'ai préférer créer liXian !</p>
+                        <p>J'aurais pu &eacute;crire un livre sur mes 30 ans d'exp&eacute;rience dans les syst&egrave;mes d'information ...... j'ai pr&eacute;f&eacute;rer cr&eacute;er liXian !</p>
                     </div>
                 </div>
             </div>
@@ -1671,4 +1656,3 @@ return (true);
 
 </script>
 </html>
-

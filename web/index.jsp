@@ -3,6 +3,7 @@
     Document   : index
     Created on : 4 nov. 2018, 13:57:38
     Author     : Joël
+    Modification du cartouche à partir du pc du bas
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8" language="java" import="java.sql.*" errorPage="" %>

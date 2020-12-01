@@ -300,7 +300,7 @@
 
 <context-param>
 	<param-name>sendMail</param-name>
-	<param-value>0</param-value>
+	<param-value>1</param-value>
 </context-param>
 
 <context-param>
@@ -323,15 +323,17 @@
 	<param-value>email-smtp.eu-west-1.amazonaws.com</param-value>
 </context-param>
 
+
 <context-param>
         <param-name>loginSMTP</param-name>
-        <param-value>AKIAIEW42SWV7C7VUSEQ</param-value>
+        <param-value>AKIA2HMODHYIKAY5J55E</param-value>
 </context-param>
 
 <context-param>
         <param-name>passwordSMTP</param-name>
-        <param-value>Ai0J8WGC1ZDxi21cp7q2K3dF8NNxc1BVkTweu4HQQC0F</param-value>
+        <param-value>BBvMxfMyo5UmF2BDxBj454glILLqzi2djHt42FV6DG+w</param-value>
 </context-param>
+
 
 <context-param>
         <param-name>portSMTP</param-name>
